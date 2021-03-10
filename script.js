@@ -64,5 +64,6 @@
         });
     
       view.ui.add(legend, "bottom-right");
+          
    });
     });
