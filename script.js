@@ -1,3 +1,4 @@
+
     require([
       "esri/WebScene",
       "esri/views/SceneView",
@@ -14,7 +15,7 @@
       });*/
       var scene = new WebScene({
         portalItem:{
-         id:"bfeb5fd6fb254b5987a759e682caf252" 
+         id:"1f943bc863134751bfe806d4482ed3d9" 
         }
       });
       
@@ -25,6 +26,7 @@
         ],
         tilt:25,
         heading: 0
+       
       });
     
       
@@ -64,6 +66,5 @@
         });
     
       view.ui.add(legend, "bottom-right");
-          
    });
     });
